@@ -1,0 +1,31 @@
+{
+  "name":        "nk/user-bundle",
+  "type":        "symfony-bundle",
+  "description": "Simple override and implementation of fos user for NkAdminBundle",
+  "keywords":    ["fos-user", "user", "symfony", "bundle"],
+  "homepage":    "https://github.com/nicovak/NkUserBundle",
+  "license":     "MIT",
+
+  "authors": [
+    {
+      "name": "Nicolas Kovacs",
+      "homepage": "https://github.com/nicovak"
+    }
+  ],
+
+  "require": {
+    "php":                          ">=5.3.2",
+    "symfony/symfony":              ">=2.0.0",
+    "friendsofsymfony/user-bundle": ">=2.0"
+  },
+
+  "minimum-stability": "dev",
+
+  "autoload": {
+    "psr-0": {
+      "Nk\\UserBundle": ""
+    }
+  },
+
+  "target-dir": "Nk/UserBundle"
+}
